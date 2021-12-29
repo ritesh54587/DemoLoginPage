@@ -22,7 +22,7 @@ public class LoginController {
 
 @Autowired
 LoginRepo loginRepo;
-	@RequestMapping("/")
+	@RequestMapping("/loginPage")
 	
 	public String home() {
 		return "login.jsp";
